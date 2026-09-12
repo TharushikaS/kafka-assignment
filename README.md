@@ -11,7 +11,8 @@ Built in **Python** with `confluent-kafka`; Kafka + Schema Registry run locally
 via **Docker Compose**.
 
 > 📄 Full design rationale is in [`docs/DESIGN.md`](docs/DESIGN.md); diagrams are
-> in [`docs/architecture.md`](docs/architecture.md).
+> in [`docs/architecture.md`](docs/architecture.md); a timed script for the
+> live-demo video is in [`docs/DEMO.md`](docs/DEMO.md).
 
 ---
 
