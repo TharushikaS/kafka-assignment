@@ -1,0 +1,9 @@
+# Kafka client with built-in Schema Registry + Avro support.
+# The [avro] extra pulls in fastavro and the Schema Registry serdes.
+confluent-kafka[avro]==2.5.3
+
+# Loads configuration from a local .env file during development.
+python-dotenv==1.0.1
+
+# --- Development / testing only ---
+pytest==8.3.2
