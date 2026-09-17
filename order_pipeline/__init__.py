@@ -1,4 +1,4 @@
-"""Kafka + Avro order-processing pipeline.
+"""OrderStream - a Kafka + Avro order-processing pipeline.
 
 A small, self-contained system that produces and consumes ``Order`` messages
 over Apache Kafka using Avro serialization, and demonstrates three production

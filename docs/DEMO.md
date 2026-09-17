@@ -31,7 +31,13 @@ feature: Avro serialization, real-time aggregation, retry logic, and the DLQ.
    ```
 
 3. **Open two terminals** side by side (one for the *consumer*, one for the
-   *producer*) and a browser tab at **http://localhost:8080** (Kafka UI).
+   *producer*) and a browser tab at **http://localhost:8080** (Kafka UI). The
+   cluster appears there as **OrderStream**.
+
+   > **Light theme:** Kafka UI follows your operating system's light/dark
+   > setting and cannot be forced from Docker. For a light UI on camera, either
+   > set your OS to light mode, or click the **sun/moon toggle** in the top-right
+   > of the Kafka UI header (the choice is remembered in that browser).
 
 4. **Set a higher failure rate** so retries are clearly visible on camera. In the
    **consumer** terminal only:

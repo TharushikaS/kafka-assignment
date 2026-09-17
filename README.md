@@ -1,6 +1,6 @@
-# Kafka-Based Order Processing System
+# OrderStream — Kafka-Based Order Processing System
 
-A Kafka pipeline that **produces** and **consumes** order messages with **Avro**
+**OrderStream** is a Kafka pipeline that **produces** and **consumes** order messages with **Avro**
 serialization, and demonstrates three production patterns:
 
 - 📊 **Real-time aggregation** — a running average of order prices (global + per product)

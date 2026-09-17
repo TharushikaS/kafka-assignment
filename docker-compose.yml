@@ -8,6 +8,8 @@
 # Bring it up with:   docker compose up -d
 # Tear it down with:  docker compose down          (add -v to wipe data)
 # ---------------------------------------------------------------------------
+name: orderstream
+
 services:
   kafka:
     image: confluentinc/cp-kafka:7.7.1
@@ -72,7 +74,7 @@ services:
     ports:
       - "8080:8080"   # http://localhost:8080
     environment:
-      KAFKA_CLUSTERS_0_NAME: local
+      KAFKA_CLUSTERS_0_NAME: OrderStream
       KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: "kafka:29092"
       KAFKA_CLUSTERS_0_SCHEMAREGISTRY: "http://schema-registry:8081"
       DYNAMIC_CONFIG_ENABLED: "true"

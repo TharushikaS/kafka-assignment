@@ -1,4 +1,4 @@
-# Design Report — Kafka-Based Order Processing System
+# Design Report — OrderStream (Kafka-Based Order Processing System)
 
 **Author:** Tharushika Surasinghe
 **Module:** Assignment — Chapter 3
@@ -8,8 +8,9 @@
 
 ## 1. Introduction
 
-This report documents the design and implementation of a Kafka-based system that
-produces and consumes order messages using Avro serialization. Beyond basic
+This report documents the design and implementation of **OrderStream**, a
+Kafka-based system that produces and consumes order messages using Avro
+serialization. Beyond basic
 messaging, the system implements three patterns commonly required of
 production-grade event pipelines:
 
